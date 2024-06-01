@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Restaurante Frontend en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introducción
 
-## Available Scripts
+Este proyecto es un frontend desarrollado en React para un restaurante. La aplicación ofrece una interfaz moderna y atractiva, diseñada para mejorar la experiencia del usuario con secciones bien definidas como la introducción del restaurante, el menú especial, el chef, la galería, entre otros. El proyecto utiliza componentes de React para asegurar una arquitectura limpia y modular.
 
-In the project directory, you can run:
+## Estructura del Proyecto
 
-### `npm start`
+El proyecto está organizado de la siguiente manera:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+src/
+|-- components/
+|   |-- Navbar.jsx
+|   `-- // otros componentes reutilizables
+|
+|-- container/
+|   |-- AboutUs.jsx
+|   |-- Chef.jsx
+|   |-- FindUs.jsx
+|   |-- Footer.jsx
+|   |-- Gallery.jsx
+|   |-- Header.jsx
+|   |-- Intro.jsx
+|   |-- Laurels.jsx
+|   |-- SpecialMenu.jsx
+|   `-- // otros contenedores de la aplicación
+|
+|-- App.css
+|-- App.jsx
+`-- index.js
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Componentes Principales
 
-### `npm test`
+1. **Navbar**: Barra de navegación superior para facilitar el acceso a las diferentes secciones de la página.
+2. **Header**: Sección de cabecera que generalmente contiene la introducción y la imagen principal del restaurante.
+3. **AboutUs**: Sección que proporciona información sobre el restaurante, su historia y misión.
+4. **SpecialMenu**: Sección que muestra los platos especiales del restaurante.
+5. **Chef**: Sección dedicada al chef principal, su historia y especialidades.
+6. **Intro**: Sección introductoria con información adicional y características destacadas.
+7. **Laurels**: Sección que muestra premios y reconocimientos obtenidos por el restaurante.
+8. **Gallery**: Galería de imágenes del restaurante, platos y eventos.
+9. **FindUs**: Información de contacto y ubicación del restaurante.
+10. **Footer**: Pie de página con información adicional y enlaces a redes sociales.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación
 
-### `npm run build`
+Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/aleglope/Restaurant-Menu.git
+   ```
+2. Navega al directorio del proyecto:
+   ```sh
+   cd Restaurant-Menu
+   ```
+3. Instala las dependencias necesarias:
+   ```sh
+   npm install
+   ```
+4. Inicia la aplicación:
+   ```sh
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribución
 
-### `npm run eject`
+Si deseas contribuir a este proyecto, por favor, sigue estos pasos:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Empuja la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/aleglope/Restaurant-Menu/assets/145428743/0d3a877c-6945-490a-a823-34df3bac6158)
+![image](https://github.com/aleglope/Restaurant-Menu/assets/145428743/ad1707e5-9851-4500-8ad0-4cf0d8f39fc1)
+![image](https://github.com/aleglope/Restaurant-Menu/assets/145428743/5b5c70d9-3029-4f68-a222-7e6a980ebbb2)
+![image](https://github.com/aleglope/Restaurant-Menu/assets/145428743/d28ba09d-f7de-4666-bf2f-163402f9f4ae)
+![image](https://github.com/aleglope/Restaurant-Menu/assets/145428743/59f2efe1-4d0c-4b0f-bcb8-432906114f09)
+![image](https://github.com/aleglope/Restaurant-Menu/assets/145428743/5ef99bc4-bad6-48ef-87c9-8ed3021a7548)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
