@@ -2,56 +2,56 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Albariño, Rías Baixas',
+    price: '€34',
+    tags: 'Galicia | Bottle',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Godello, Valdeorras',
+    price: '€38',
+    tags: 'Galicia | Bottle',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Mencía, Ribeira Sacra',
+    price: '€36',
+    tags: 'Galicia | Bottle',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Ribera del Duero Crianza',
+    price: '€42',
+    tags: 'Castilla y León | Bottle',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Estrella Galicia 1906',
+    price: '€4',
+    tags: 'Galicia | 330 ml',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
+    title: 'Aperol Spritz',
+    price: '€12',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
     title: "Dark 'N' Stormy",
-    price: '$16',
+    price: '€11',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
     title: 'Daiquiri',
-    price: '$10',
+    price: '€9',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
     title: 'Old Fashioned',
-    price: '$31',
+    price: '€13',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
     title: 'Negroni',
-    price: '$26',
+    price: '€12',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];
@@ -60,22 +60,22 @@ const awards = [
   {
     imgUrl: images.award02,
     title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Michelin Guide, recommended three years running',
   },
   {
     imgUrl: images.award01,
     title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Best new restaurant in Galicia, 2020',
   },
   {
     imgUrl: images.award05,
     title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Five-star hospitality rating, 2024',
   },
   {
     imgUrl: images.award03,
     title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Chef of the year, Galician gastronomy awards',
   },
 ];
 
